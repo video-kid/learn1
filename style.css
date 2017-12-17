@@ -1,8 +1,9 @@
 body 
 {
-    background-color: #D6D6D6;
+    background-color: #e7e4df;
     font-family: 'Lato', sans-serif;
     font-size: 20px;
+    color: #834756;
 }
 
 #container
@@ -25,7 +26,7 @@ body
 {
     height: 80px;
     letter-spacing: 1px;
-    background-color: white;
+    background-color: #e7e4df;
     opacity: 0.5;
     font-size: 28px;
 }
@@ -43,12 +44,13 @@ body
     height: 40px;
     padding: 20px;
     text-align: center;
+    color: #834756;
 }
 
 .element:hover
 {
-    background-color: #2B2B2B;
-    color:white;
+    background-color: #834756;
+    color:#e7e4df;
 }
 
 #content 
@@ -60,10 +62,15 @@ body
     padding-top: 50px;
 }
 
+#content h2 {
+    background-color: #d0b1ad;
+}
+
 #footer 
 {
     border: 1px dotted black;
     clear: both;
     height: 40px;
+    background-color: #bc898f;
 }
 
