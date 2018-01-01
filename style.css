@@ -56,21 +56,28 @@ body
 #content 
 {
     border: 1px dotted black;
-    height: 400px;
     text-align: justify;
-    padding: 25px;
-    padding-top: 50px;
+    position: relative;
+    height: 350px;
 }
 
-#content p 
+#content #contentContainer {
+    border: 1px dotted red;
+    position: absolute;
+    padding-top: 2%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%)
+}
+
+#content #contentContainer p 
 {
-    border: 1px dotted black;
-    width: 31%;
     float: left;
-    padding: 10px;
+    width: 21%;
+    margin: 2%;
 }
 
-#content h2 {
+#content #contentContainer h2 {
     background-color: #d0b1ad;
 }
 
