@@ -8,10 +8,7 @@ body
 
 #container
 {
-    border: 1px dotted black;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #mainPic 
@@ -51,23 +48,19 @@ body
 {
     background-color: #834756;
     color:#e7e4df;
+    transition: background-color 2s, color 2s;
 }
 
 #content 
 {
-    border: 1px dotted black;
     text-align: justify;
-    position: relative;
-    height: 350px;
 }
 
 #content #contentContainer {
-    border: 1px dotted red;
-    position: absolute;
     padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
-    left: 50%;
-    transform: translate(-50%)
 }
 
 #content #contentContainer p 
