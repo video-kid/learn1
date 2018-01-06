@@ -13,18 +13,39 @@ body
 
 #mainPic 
 {
-    height: 95%;
     background: url(image.jpg);
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+#mainPic .button 
+{
+    border: 2px solid #834756;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(231, 228, 223, 0.5);
+}
+
+.button 
+{
+    padding: 40px 60px;
+}
+
+.button span
+{
+    color: #834756;
+    font-size: 35px;
 }
 
 #menu 
 {
     height: 80px;
     letter-spacing: 1px;
-    background-color: #e7e4df;
-    opacity: 0.5;
+    background-color: rgba(231, 228, 223, 0.5);
     font-size: 28px;
 }
 
@@ -56,21 +77,35 @@ body
     text-align: justify;
 }
 
-#content #contentContainer {
-    padding-top: 2%;
+#content .contentContainer {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
 
-#content #contentContainer p 
+#content .contentContainer p.column
 {
     float: left;
     width: 21%;
+}
+
+#content .contentContainer p 
+{
     margin: 2%;
 }
 
-#content #contentContainer h2 {
+#content .contentContainer p.column img 
+{
+    width: 100%;
+    border: 2px solid #834756;
+}
+
+#content .contentContainer p.column img:hover {
+    opacity: 0.5;
+}
+
+#content .contentContainer h2 {
+    margin-top: 2%;
     background-color: #d0b1ad;
 }
 
