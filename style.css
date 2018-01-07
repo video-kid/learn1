@@ -33,6 +33,7 @@ body
 .button 
 {
     padding: 40px 60px;
+    border: 1px dotted black;
 }
 
 .button span
@@ -91,7 +92,9 @@ body
 
 #content .contentContainer p 
 {
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
 
 #content .contentContainer p.column img 
@@ -115,5 +118,6 @@ body
     clear: both;
     height: 40px;
     background-color: #bc898f;
+    margin-top: 2%;
 }
 
